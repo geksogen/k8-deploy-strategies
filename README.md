@@ -24,7 +24,7 @@
 
 ## ramped strategy
 ```sh
-    cd ./k8-deploy-strategies/ramped
+    cd ../ramped
     kubectl apply -f app-v1.yaml
     # see <IP-Node:31758>
 ```
