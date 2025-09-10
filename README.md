@@ -28,3 +28,9 @@
     kubectl apply -f app-v1.yaml
     # see <IP-Node:31758>
 ```
+## blue green strategy
+```sh
+    cd ../blue-green
+    kubectl apply -f app-v1.yaml
+    # see <IP-Node:31758>
+```
