@@ -34,3 +34,8 @@
     kubectl apply -f app-v1.yaml
     # see <IP-Node:31758>
 ```
+
+### change version
+```sh
+   kubectl patch service my-app -p '{"spec":{"selector":{"version":"v2.0.0"}}}'
+```
