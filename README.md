@@ -14,7 +14,7 @@
 
 ### change version
 ```sh
-   kubectl apply -f app-v2.yaml && watch -n 1 kubectl get pod
+   kubectl apply -f app-v2.yaml && watch -n 1.5 kubectl get pod
 ```
 
 ### clear
