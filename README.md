@@ -15,5 +15,16 @@
 ### change version
 ```sh
    kubectl apply -f app-v2.yaml && watch -n 1 kubectl get pod
-   watch -n 1 kubectl get pod
+```
+
+### clear
+```sh
+   kubectl delete deployment my-ap
+```
+
+## ramped strategy
+```sh
+    cd ./k8-deploy-strategies/ramped
+    kubectl apply -f app-v1.yaml
+    # see <IP-Node:31758>
 ```
