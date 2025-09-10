@@ -19,7 +19,7 @@
 
 ### clear
 ```sh
-   kubectl delete deployment my-ap
+   kubectl delete deployment my-app
 ```
 
 ## ramped strategy
