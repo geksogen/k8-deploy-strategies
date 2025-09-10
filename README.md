@@ -9,7 +9,7 @@
 ```
 ### test app
 ```sh
-    while true; do curl http://89.169.149.118:31758; sleep 0.1; done # delete \ sumbol :)
+    while true; do curl http://89.169.149.118:31758; sleep 0.1; done ## delete \ sumbol :)
 ```
 
 ### change version
